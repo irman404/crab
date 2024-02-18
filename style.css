@@ -1,0 +1,406 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Tag SVG*/
+
+
+#beach{
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	animation: beach 1s ease-in-out forwards;
+	animation-delay: 1s;
+	transform-origin: center;
+	transform-box: fill-box;
+	opacity: 0;
+}
+
+#g1{
+	opacity: 0;
+	animation: g1 1s ease forwards;
+	animation-delay: 2s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#g2{
+	opacity: 0;
+	animation: g2 1s ease forwards;
+	animation-delay: 3s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#g3{
+	opacity: 0;
+	animation: g3 1s ease forwards;
+	animation-delay: 4s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#water{
+	animation: water 6s ease infinite;
+	animation-delay: 1s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#eye{
+	animation: eyes 3s ease-in infinite;
+	animation-delay: 1s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#crab1{
+	opacity: 0;
+	animation: crab1 1s ease forwards;
+	animation-delay: 6s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#b1{
+	animation: b1 2s ease-in-out infinite;
+	animation-delay: 6s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#b2{
+	animation: b2 2s ease-in-out infinite;
+	animation-delay: 6s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#b3{
+	animation: b3 2s ease-in-out infinite;
+	animation-delay: 6s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#b4{
+	animation: b4 2s ease-in-out infinite;
+	animation-delay: 6s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+
+
+#crab2{
+	opacity: 0;
+	animation: crab2 1s ease forwards;
+	animation-delay: 8s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#crab22{
+	animation: crab22 2s ease infinite;
+	animation-delay: 15s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#a1{
+	animation: a1 2s ease-in-out infinite;
+	animation-delay: 8s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#a2{
+	animation: a2 2s ease-in-out infinite;
+	animation-delay: 8s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#a3{
+	animation: a3 2s ease-in-out infinite;
+	animation-delay: 8s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#a4{
+	animation: a4 2s ease-in-out infinite;
+	animation-delay: 8s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+
+
+#crab3{
+	opacity: 0;
+	animation: crab3 1s ease forwards;
+	animation-delay: 10s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#crab33{
+	animation: crab33 2s ease infinite;
+	animation-delay: 15s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#c1{
+	animation: c1 2s ease-in-out infinite;
+	animation-delay: 10s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#c2{
+	animation: c2 2s ease-in-out infinite;
+	animation-delay: 10s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#c3{
+	animation: c3 2s ease-in-out infinite;
+	animation-delay: 10s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#c4{
+	animation: c4 2s ease-in-out infinite;
+	animation-delay: 10s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#music{
+	opacity: 0;
+	animation: music 1s ease forwards;
+	animation-delay: 15s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#music1{
+	animation: m1 2s ease infinite;
+	animation-delay: 15s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#music2{
+	animation: m2 2s ease infinite;
+	animation-delay: 15s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#music3{
+	animation: m3 2s ease infinite;
+	animation-delay: 15s;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+
+/*Keyframes Animation*/
+
+@keyframes beach{
+	0%{
+		opacity: 0;
+		transform: scale(0,0);
+	}
+	70%{
+
+		opacity: 1;
+		transform: scale(1,1);
+	}
+	100%{
+		opacity: 1;
+		transform: scale(0.9,0.9);
+	}
+}
+
+@keyframes g1{
+	0%{
+		opacity: 0;
+		transform: translateY(0px) scale(0.9,0.9);
+	}
+	100%{
+
+		opacity: 1;
+		transform:translateY(-3px) scale(1,1);
+	}
+}
+
+@keyframes g2{
+	0%{
+		opacity: 0;
+		transform: translateY(0px) scale(0.9,0.9);
+	}
+	100%{
+
+		opacity: 1;
+		transform: translateY(-3px) scale(1,1);
+	}
+}
+
+@keyframes g3{
+	0%{
+		opacity: 0;
+		transform: translateY(0px)  scale(0.9,0.9);
+	}
+	100%{
+
+		opacity: 1;
+		transform: translateY(-3px) scale(1,1);
+	}
+}
+
+@keyframes eyes{
+	0%{transform: scaleY(1);}
+	10%{transform: scaleY(0.2);}
+	15%{transform: scaleY(1);}
+}
+
+@keyframes water{
+	0%{	transform:translateX(10px) scaleY(0.7)}
+	50%{transform:translateX(0px) scaleY(1)}
+	100%{transform:translateX(10px) scaleY(0.7)}
+}
+
+@keyframes crab1{
+	0%{	transform:translateY(10px) scaleY(0.7)}
+	100%{transform:translateY(0px) scaleY(1); opacity: 1}
+}
+
+@keyframes a1{
+	0%{	transform:scaleY(0.8)}
+	50%{transform:scaleY(1)}
+	100%{transform:scaleY(0.8)}
+}
+
+@keyframes a2{
+	0%{	transform:scaleY(0.8)}
+	50%{transform:scaleY(1)}
+	100%{transform:scaleY(0.8)}
+}
+
+@keyframes a3{
+	0%{	transform: rotateZ(10deg)}
+	50%{transform: rotateZ(0)}
+	100%{transform: rotateZ(10deg)}
+}
+
+@keyframes a4{
+	0%{	transform:translateX(-1px) rotateZ(-10deg)}
+	50%{transform:translateX(-1px) rotateZ(0)}
+	100%{transform:translateX(-1px) rotateZ(-10deg)}
+}
+
+
+@keyframes crab2{
+	0%{	transform:translateY(10px) scaleY(0.7)}
+	100%{transform:translateY(0px) scaleY(1); opacity: 1}
+}
+
+@keyframes crab22{
+	0%{	transform:rotateZ(0)}
+	50%{transform:rotateZ(5deg)}
+	100%{transform:rotateZ(0)}
+}
+
+@keyframes b1{
+	0%{	transform:scaleY(0.9)}
+	50%{transform:scaleY(1)}
+	100%{transform:scaleY(0.9)}
+}
+
+@keyframes b2{
+	0%{	transform:scaleY(0.9)}
+	50%{transform:scaleY(1)}
+	100%{transform:scaleY(0.9)}
+}
+
+@keyframes b3{
+	0%{	transform: rotateZ(20deg)}
+	50%{transform: rotateZ(0)}
+	100%{transform: rotateZ(20deg)}
+}
+
+@keyframes b4{
+	0%{	transform: rotateZ(-20deg)}
+	50%{transform: rotateZ(0)}
+	100%{transform: rotateZ(-20deg)}
+}
+
+@keyframes crab3{
+	0%{	transform:translateY(10px) scaleY(0.7)}
+	100%{transform:translateY(0px) scaleY(1); opacity: 1}
+}
+
+@keyframes crab33{
+	0%{	transform:rotateZ(0)}
+	50%{transform:rotateZ(-5deg)}
+	100%{transform:rotateZ(0)}
+}
+
+@keyframes c1{
+	0%{	transform:scaleY(0.8)}
+	50%{transform:scaleY(1)}
+	100%{transform:scaleY(0.8)}
+}
+
+@keyframes c2{
+	0%{	transform:scaleY(0.8)}
+	50%{transform:scaleY(1)}
+	100%{transform:scaleY(0.8)}
+}
+
+@keyframes c3{
+	0%{	transform: rotateZ(10deg)}
+	50%{transform: rotateZ(0)}
+	100%{transform: rotateZ(10deg)}
+}
+
+@keyframes c4{
+	0%{	transform: rotateZ(-10deg)}
+	50%{transform: rotateZ(0)}
+	100%{transform: rotateZ(-10deg)}
+}
+
+@keyframes music{
+	0%{	transform:translateY(10px) scaleY(0.7)}
+	100%{transform:translateY(0px) scaleY(1); opacity: 1}
+}
+
+@keyframes m1{
+	0%{	transform:translateY(5px) rotateY(5deg)}
+	50%{transform:translateY(0px) rotateY(0)}
+	100%{transform:translateY(5px) rotateY(5deg)}
+}
+
+@keyframes m2{
+	0%{	transform:translateY(-5px) rotateY(-5deg)}
+	50%{transform:translateY(0px) rotateY(0)}
+	100%{transform:translateY(-5px) rotateY(-5deg)}
+}
+
+
+@keyframes m3{
+	0%{	transform:translateY(-3px) rotateY(-3deg)}
+	50%{transform:translateY(0px) rotateY(0)}
+	100%{transform:translateY(-3px) rotateY(-3deg)}
+}
+
+
+
